@@ -47,7 +47,7 @@
 
                                             </div>
                                         </th>
-                                        <td class="align-middle"><strong>{{item.price | currency}}</strong></td>
+                                        <td class="align-middle"><strong>{{item.price | currency:"RON":"symbol"}}</strong></td>
                                         <td class="align-middle">
                                             <div class="d-flex align-items-center">
                                                 <i (click)="decrementItemQuantity(item)" class="fa fa-minus-circle text-warning mr-2"
@@ -60,7 +60,7 @@
                                             </div>
                                         </td>
                                         <td class="align-middle">
-                                            <strong>{{item.price * item.quantity | currency}}</strong></td>
+                                            <strong>{{item.price * item.quantity |  currency:"RON":"symbol"}}</strong></td>
                                         <td class="align-middle text-center">
                                             <a class="text-danger">
                                                 <i (click)="removeBasketItem(item)" class="fa fa-trash" style="font-size: 2em; cursor: pointer;"></i>

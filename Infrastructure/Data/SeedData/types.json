@@ -1,18 +1,34 @@
 [
   {
     "Id": 1,
-    "Name": "Boards"
+    "Name": "TRANDAFIRI"
   },
   {
     "Id": 2,
-    "Name": "Hats"
+    "Name": "MATTHIOLA"
   },
   {
     "Id": 3,
-    "Name": "Boots"
+    "Name": "ANEMONE"
   },
   {
     "Id": 4,
-    "Name": "Gloves"
+    "Name": "ZAMBILE"
+  },
+  {
+    "Id": 5,
+    "Name": "LALELE"
+  },
+  {
+    "Id": 6,
+    "Name": "LISIANTHUS"
+  },
+  {
+    "Id": 7,
+    "Name": "FREZII"
+  },
+  {
+    "Id": 8,
+    "Name": "PLANTE"
   }
 ]

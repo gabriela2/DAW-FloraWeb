@@ -14,7 +14,7 @@ a{
     color: #343a40;
 }
 a.active{
-    color:orange;
+    color:rgb(29, 122, 84);
 }
 .logo{
     cursor: pointer;

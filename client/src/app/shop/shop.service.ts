@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { IPagination } from '../shared/models/pagination';
-import { IBrand } from '../shared/models/brand';
+import { ICategory } from '../shared/models/category';
 import { IType } from '../shared/models/productType';
 import { map, delay } from 'rxjs/operators';
 import { ShopParams } from '../shared/models/shopParams';
@@ -18,8 +18,8 @@ export class ShopService {
   getProducts(shopParams: ShopParams) {
     let params = new HttpParams();
 
-    if (shopParams.brandId !== 0) {
-      params = params.append('brandId', shopParams.brandId.toString());
+    if (shopParams.categoryId !== 0) {
+      params = params.append('categoryId', shopParams.categoryId.toString());
     }
 
     if (shopParams.typeId !== 0) {
@@ -45,8 +45,8 @@ export class ShopService {
   getProduct(id: number){
     return this.http.get<IProduct>(this.baseUrl + 'products/' + id);
   }
-  getBrands() {
-    return this.http.get<IBrand[]>(this.baseUrl + 'products/brands');
+  getCategories() {
+    return this.http.get<ICategory[]>(this.baseUrl + 'products/categories');
   }
 
   getTypes() {

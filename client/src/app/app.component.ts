@@ -8,7 +8,7 @@ import { BasketService } from './basket/basket.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'Skinet';
+  title = 'FloraWeb';
 
   constructor(private basketService: BasketService, private accountService: AccountService) { }
 

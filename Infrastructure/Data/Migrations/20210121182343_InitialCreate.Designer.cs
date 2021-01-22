@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20210104174617_InitialCreate")]
+    [Migration("20210121182343_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,10 +37,10 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("Price")
+                    b.Property<double>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("ProductBrandId")
+                    b.Property<int>("ProductCategoryId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("ProductTypeId")
@@ -48,14 +48,14 @@ namespace Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductBrandId");
+                    b.HasIndex("ProductCategoryId");
 
                     b.HasIndex("ProductTypeId");
 
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Core.Entities.ProductBrand", b =>
+            modelBuilder.Entity("Core.Entities.ProductCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -66,7 +66,7 @@ namespace Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProductBrands");
+                    b.ToTable("ProductCategories");
                 });
 
             modelBuilder.Entity("Core.Entities.ProductType", b =>
@@ -85,9 +85,9 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Core.Entities.Product", b =>
                 {
-                    b.HasOne("Core.Entities.ProductBrand", "ProductBrand")
+                    b.HasOne("Core.Entities.ProductCategory", "ProductCategory")
                         .WithMany()
-                        .HasForeignKey("ProductBrandId")
+                        .HasForeignKey("ProductCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -97,7 +97,7 @@ namespace Infrastructure.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ProductBrand");
+                    b.Navigation("ProductCategory");
 
                     b.Navigation("ProductType");
                 });

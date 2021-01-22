@@ -10,7 +10,7 @@ namespace API.Extensions
         {
             services.AddSwaggerGen(c => 
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "SkiNet API", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "FloraWeb API", Version = "v1"});
                 var securitySchema = new OpenApiSecurityScheme{
                     Description = "JWT Auth Bearer Scheme",
                     Name = "Authorization",
@@ -36,7 +36,7 @@ namespace API.Extensions
         {
             app.UseSwagger();
             app.UseSwaggerUI(c => {c
-                .SwaggerEndpoint("/swagger/v1/swagger.json", "SkiNet API v1");});
+                .SwaggerEndpoint("/swagger/v1/swagger.json", "FloraWeb API v1");});
 
             return app;
         }

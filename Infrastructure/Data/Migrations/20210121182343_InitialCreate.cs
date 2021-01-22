@@ -7,7 +7,7 @@ namespace Infrastructure.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "ProductBrands",
+                name: "ProductCategories",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
@@ -16,7 +16,7 @@ namespace Infrastructure.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ProductBrands", x => x.Id);
+                    table.PrimaryKey("PK_ProductCategories", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -40,18 +40,18 @@ namespace Infrastructure.Data.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
                     Description = table.Column<string>(type: "TEXT", maxLength: 180, nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Price = table.Column<double>(type: "decimal(18,2)", nullable: false),
                     PictureUrl = table.Column<string>(type: "TEXT", nullable: false),
                     ProductTypeId = table.Column<int>(type: "INTEGER", nullable: false),
-                    ProductBrandId = table.Column<int>(type: "INTEGER", nullable: false)
+                    ProductCategoryId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Products_ProductBrands_ProductBrandId",
-                        column: x => x.ProductBrandId,
-                        principalTable: "ProductBrands",
+                        name: "FK_Products_ProductCategories_ProductCategoryId",
+                        column: x => x.ProductCategoryId,
+                        principalTable: "ProductCategories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -63,9 +63,9 @@ namespace Infrastructure.Data.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Products_ProductBrandId",
+                name: "IX_Products_ProductCategoryId",
                 table: "Products",
-                column: "ProductBrandId");
+                column: "ProductCategoryId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Products_ProductTypeId",
@@ -79,7 +79,7 @@ namespace Infrastructure.Data.Migrations
                 name: "Products");
 
             migrationBuilder.DropTable(
-                name: "ProductBrands");
+                name: "ProductCategories");
 
             migrationBuilder.DropTable(
                 name: "ProductTypes");

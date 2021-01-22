@@ -1,146 +1,170 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
+    "Name": "Buchet 19 trandafiri albi",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 255,
+    "PictureUrl": "images/products/poza1.png",
+    "FlowerTypeId": 1,
+    "FlowerCategoryId": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
+    "Name": "Buchet 19 trandafiri rosii",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 255,
+    "PictureUrl": "images/products/poza2.png",
+    "FlowerTypeId": 1,
+    "FlowerCategoryId": 1
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Name": "Buchet 25 matthiola alba",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 245,
+    "PictureUrl": "images/products/poza3.png",
+    "FlowerTypeId": 2,
+    "FlowerCategoryId": 1
+  },
+  {
+    "Name": "Buchet 25 matthiola roz",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 205,
+    "PictureUrl": "images/products/poza4.png",
+    "FlowerTypeId": 2,
+    "FlowerCategoryId": 1
+  },
+  {
+    "Name": "Buchet cu 25 anemone cyclam",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 260,
+    "PictureUrl": "images/products/poza5.png",
+    "FlowerTypeId": 3,
+    "FlowerCategoryId": 1
+  },
+  {
+    "Name": "Buchet 35 zambile peach",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 350,
+    "PictureUrl": "images/products/poza6.png",
+    "FlowerTypeId": 4,
+    "FlowerCategoryId": 1
+  },
+  {
+    "Name": "Buchet 101 lalele galbene",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 730,
+    "PictureUrl": "images/products/poza7.png",
+    "FlowerTypeId": 5,
+    "FlowerCategoryId": 1
+  },
+  {
+    "Name": "Buchet 101 lalele albe",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 615,
+    "PictureUrl": "images/products/poza8.png",
+    "FlowerTypeId": 5,
+    "FlowerCategoryId": 1
+  },
+  {
+    "Name": "Buchet 25 lalele albe",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
     "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "PictureUrl": "images/products/poza9.png",
+    "FlowerTypeId": 5,
+    "FlowerCategoryId": 1
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "Name": "Buchet 11 lisianthus alb",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 185,
+    "PictureUrl": "images/products/poza10.png",
+    "FlowerTypeId": 6,
+    "FlowerCategoryId": 1
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 4
+    "Name": "Buchet 101 frezii albe",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 750,
+    "PictureUrl": "images/products/poza11.png",
+    "FlowerTypeId": 7,
+    "FlowerCategoryId": 1
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 5
+    "Name": "Memoria trandafirului",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 220,
+    "PictureUrl": "images/products/poza12.png",
+    "FlowerTypeId": 1,
+    "FlowerCategoryId": 2
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
+    "Name": "In apropierea momentului",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 205,
+    "PictureUrl": "images/products/poza13.png",
+    "FlowerTypeId": 7,
+    "FlowerCategoryId": 2
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Name": "Sub soarele de mai",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 195,
+    "PictureUrl": "images/products/poza14.png",
+    "FlowerTypeId": 7,
+    "FlowerCategoryId": 2
   },
   {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Name": "Un alb infinit",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 675,
+    "PictureUrl": "images/products/poza15.png",
+    "FlowerTypeId": 1,
+    "FlowerCategoryId": 3
   },
   {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
+    "Name": "Cos cu 25 trandafiri rosii",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 380,
+    "PictureUrl": "images/products/poza16.png",
+    "FlowerTypeId": 1,
+    "FlowerCategoryId": 4
   },
   {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
+    "Name": "Cand te gandesti la primavara",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 225,
+    "PictureUrl": "images/products/poza17.png",
+    "FlowerTypeId": 1,
+    "FlowerCategoryId": 4
   },
   {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
+    "Name": "Ficus Lyrata 190 cm",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 2400,
+    "PictureUrl": "images/products/poza18.png",
+    "FlowerTypeId": 8,
+    "FlowerCategoryId": 5
   },
   {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
+    "Name": "Monstera Deliciosa 170 cm",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 1800,
+    "PictureUrl": "images/products/poza19.png",
+    "FlowerTypeId": 8,
+    "FlowerCategoryId": 5
   },
   {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 6
+    "Name": "Ficus Lyrata 350 cm",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 6100,
+    "PictureUrl": "images/products/poza20.png",
+    "FlowerTypeId": 8,
+    "FlowerCategoryId": 5
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "Name": "Ficus Panda 165 cm",
+    "Description": "Pretul produsului pe care l-ati ales din floraria online FloraWeb include o felicitare cadou.Produsele pot suferi modificari (tipul florilor; cutiile; ambalajele; alte materiale componente) in functie de stocul colaboratorului local.",
+    "Price": 13900,
+    "PictureUrl": "images/products/poza21.png",
+    "FlowerTypeId": 8,
+    "FlowerCategoryId": 5
   }
 ]
